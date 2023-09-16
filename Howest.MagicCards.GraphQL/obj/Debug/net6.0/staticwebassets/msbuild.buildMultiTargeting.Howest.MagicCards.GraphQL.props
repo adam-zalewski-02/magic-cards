@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Howest.MagicCards.GraphQL.props" />
+</Project>

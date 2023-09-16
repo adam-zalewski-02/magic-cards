@@ -1,0 +1,65 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Howest.MagicCards.Web
+build_property.RootNamespace = Howest.MagicCards.Web
+build_property.ProjectDir = C:\Users\steen\Documents\02-semester2\dotnet\howest.magiccards\Howest.MagicCards.Web\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\steen\Documents\02-semester2\dotnet\howest.magiccards\Howest.MagicCards.Web
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/steen/Documents/02-semester2/dotnet/howest.magiccards/Howest.MagicCards.Web/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/steen/Documents/02-semester2/dotnet/howest.magiccards/Howest.MagicCards.Web/Pages/CardDetail.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FyZERldGFpbC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/steen/Documents/02-semester2/dotnet/howest.magiccards/Howest.MagicCards.Web/Pages/CardList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FyZExpc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/steen/Documents/02-semester2/dotnet/howest.magiccards/Howest.MagicCards.Web/Pages/Cards.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FyZHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/steen/Documents/02-semester2/dotnet/howest.magiccards/Howest.MagicCards.Web/Pages/CardsFilterForm.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FyZHNGaWx0ZXJGb3JtLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/steen/Documents/02-semester2/dotnet/howest.magiccards/Howest.MagicCards.Web/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/steen/Documents/02-semester2/dotnet/howest.magiccards/Howest.MagicCards.Web/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/steen/Documents/02-semester2/dotnet/howest.magiccards/Howest.MagicCards.Web/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/steen/Documents/02-semester2/dotnet/howest.magiccards/Howest.MagicCards.Web/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-7208gbvmom
+
+[C:/Users/steen/Documents/02-semester2/dotnet/howest.magiccards/Howest.MagicCards.Web/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/steen/Documents/02-semester2/dotnet/howest.magiccards/Howest.MagicCards.Web/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/steen/Documents/02-semester2/dotnet/howest.magiccards/Howest.MagicCards.Web/Pages/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

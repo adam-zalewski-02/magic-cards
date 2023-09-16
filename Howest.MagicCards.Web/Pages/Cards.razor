@@ -1,0 +1,94 @@
+﻿@page "/cards"
+
+@using System.Text.Json
+@using Howest.MagicCards.DAL.Repositories;
+@using Howest.MagicCards.Shared.DTO.Card;
+@using Howest.MagicCards.Shared.DTO.deck;
+
+@inject ICardRepository cardRepo
+@inject IMapper mapper
+@inject IHttpClientFactory httpClientFactory
+
+<h3>@title</h3>
+    <div class="inner-content">
+        <div class="row row-content">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-8 col-xl-9 pl-0 pr-0 pr-md-2">
+            <CardsFilterForm>
+
+            </CardsFilterForm>
+            <CardList cards="_cards" Message="@message">
+                <LoadingTemplate>
+                    <div id="loading-text">
+                        <p>Loading...</p>
+                    </div>
+                </LoadingTemplate>
+                <CardListData>
+                    @foreach (CardReadDTO card in _cards)
+                    {
+                        if (card.OriginalImageUrl != null)
+                        {
+                            <div class="align-self-start card-img-wrapper">
+                                <img class="lazy" src="@card.OriginalImageUrl" @onclick="@(() => AddCardToDeck(card))">
+                                <button type="button" data-target="@card.Id" class="btn btn-primary info-btn" @onclick="@(() => loadDetailCard(card.Id))">?</button>
+                            </div>
+                        }
+                    }
+                </CardListData>
+            </CardList>
+        </div>
+
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-3 pl-0 pr-0 pl-0">
+
+            <div class="w-100 mt-1 mb-1 d-flex justify-content-between">
+                
+                
+
+                <div id="nav-main">
+                    @if (_deck is not null){
+                        <div id="nav-main-buttons">
+                            <h5><span id="ae-cardCount">main - @totalQuantity</span></h5>
+                            <button type="button" class="btn reset-filter-btn" @onclick="@(async () => { await DeleteAllCardsFromDeck(); })">
+                                <b>X</b>
+                            </button>
+                        </div>
+
+                        <img id="cardHoverDetails" class="" src="@hoveredImageUrl" />
+                        <div id="deckcards">
+                            @foreach (DeckReadDTO card in _deck)
+                            {
+                                <div class="ae-card-row d-flex" data-id="@card.Id" data-name="@card.Name" data-img="@card.ImageUrl" data-colorid="@card.Manacost" data-manacost="@card.Manacost" data-quantity="@card.quantity"
+                             @onmouseover="@(() => ShowCardImage(card.ImageUrl, "cardHoverDetails"))" @onmouseout="@(() => HideCardImage("cardHoverDetails"))">
+                                    <div class="ae-quantity" @onclick="@(() => AddToCardQuantity(card))">@card.quantity</div>
+
+                                    <div class="d-flex w-100 ae-card-linewrap card-border-@card.ColorId">
+                                        <div class="ae-cardname flex-grow-1 d-flex card-color-core card-core-@card.ColorId" @onclick="@(() => DeleteCardFromDeck(card))">
+                                            <div class="flex-grow-1 displayed-name">@card.Name</div>
+                                            <div class="text-right mana-symbol">
+                                                @if (getManaNumber(card.Manacost) != -1)
+                                                {
+                                                    <i class="ms ms-@getManaNumber(card.Manacost) ms-cost ms-shadow"></i>
+                                                }
+
+                                                @foreach (Char character in getManaSymbols(card.Manacost))
+                                                {
+                                                    <i class="ms ms-@character.ToString().ToLower() ms-cost ms-shadow"></i>
+                                                }
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+
+                    }
+
+                </div>
+                
+            </div>
+            
+        </div>
+
+
+        </div>
+    </div>
+

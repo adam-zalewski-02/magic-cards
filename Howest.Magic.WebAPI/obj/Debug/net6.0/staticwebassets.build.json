@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "FnWoQrzZmFgksEso1OackjFOsXq0UayDEkVTR7grzSE=",
+  "Source": "Howest.MagicCards.WebAPI",
+  "BasePath": "_content/Howest.MagicCards.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.MinimalAPI\\Howest.MagicCards.MinimalAPI.csproj",
+      "Version": 2,
+      "Source": "Howest.MagicCards.MinimalAPI",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

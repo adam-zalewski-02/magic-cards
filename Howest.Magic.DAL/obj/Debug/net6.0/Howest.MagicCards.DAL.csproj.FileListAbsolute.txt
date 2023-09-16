@@ -1,0 +1,14 @@
+C:\Users\steen\Documents\02-semester2\dotnet\howest.magiccards\Howest.Magic.DAL\bin\Debug\net6.0\Howest.MagicCards.DAL.deps.json
+C:\Users\steen\Documents\02-semester2\dotnet\howest.magiccards\Howest.Magic.DAL\bin\Debug\net6.0\Howest.MagicCards.DAL.runtimeconfig.json
+C:\Users\steen\Documents\02-semester2\dotnet\howest.magiccards\Howest.Magic.DAL\bin\Debug\net6.0\Howest.MagicCards.DAL.dll
+C:\Users\steen\Documents\02-semester2\dotnet\howest.magiccards\Howest.Magic.DAL\bin\Debug\net6.0\Howest.MagicCards.DAL.pdb
+C:\Users\steen\Documents\02-semester2\dotnet\howest.magiccards\Howest.Magic.DAL\obj\Debug\net6.0\Howest.MagicCards.DAL.csproj.AssemblyReference.cache
+C:\Users\steen\Documents\02-semester2\dotnet\howest.magiccards\Howest.Magic.DAL\obj\Debug\net6.0\Howest.MagicCards.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\steen\Documents\02-semester2\dotnet\howest.magiccards\Howest.Magic.DAL\obj\Debug\net6.0\Howest.MagicCards.DAL.AssemblyInfoInputs.cache
+C:\Users\steen\Documents\02-semester2\dotnet\howest.magiccards\Howest.Magic.DAL\obj\Debug\net6.0\Howest.MagicCards.DAL.AssemblyInfo.cs
+C:\Users\steen\Documents\02-semester2\dotnet\howest.magiccards\Howest.Magic.DAL\obj\Debug\net6.0\Howest.MagicCards.DAL.csproj.CoreCompileInputs.cache
+C:\Users\steen\Documents\02-semester2\dotnet\howest.magiccards\Howest.Magic.DAL\obj\Debug\net6.0\Howest.MagicCards.DAL.dll
+C:\Users\steen\Documents\02-semester2\dotnet\howest.magiccards\Howest.Magic.DAL\obj\Debug\net6.0\refint\Howest.MagicCards.DAL.dll
+C:\Users\steen\Documents\02-semester2\dotnet\howest.magiccards\Howest.Magic.DAL\obj\Debug\net6.0\Howest.MagicCards.DAL.pdb
+C:\Users\steen\Documents\02-semester2\dotnet\howest.magiccards\Howest.Magic.DAL\obj\Debug\net6.0\Howest.MagicCards.DAL.genruntimeconfig.cache
+C:\Users\steen\Documents\02-semester2\dotnet\howest.magiccards\Howest.Magic.DAL\obj\Debug\net6.0\ref\Howest.MagicCards.DAL.dll

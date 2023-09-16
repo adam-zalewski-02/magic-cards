@@ -1,0 +1,1205 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Howest.MagicCards.Web.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Howest.MagicCards.Web.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\card-colors.css",
+      "PackagePath": "staticwebassets\\css\\card-colors.css"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\card-detail.css",
+      "PackagePath": "staticwebassets\\css\\card-detail.css"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\.gitignore",
+      "PackagePath": "staticwebassets\\css\\mana-master\\.gitignore"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\CHANGELOG.md",
+      "PackagePath": "staticwebassets\\css\\mana-master\\CHANGELOG.md"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\README.md",
+      "PackagePath": "staticwebassets\\css\\mana-master\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\bower.json",
+      "PackagePath": "staticwebassets\\css\\mana-master\\bower.json"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\css\\mana.css",
+      "PackagePath": "staticwebassets\\css\\mana-master\\css\\mana.css"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\css\\mana.css.map",
+      "PackagePath": "staticwebassets\\css\\mana-master\\css\\mana.css.map"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\css\\mana.min.css",
+      "PackagePath": "staticwebassets\\css\\mana-master\\css\\mana.min.css"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\css\\mana.min.css.map",
+      "PackagePath": "staticwebassets\\css\\mana-master\\css\\mana.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\fonts\\mana.eot",
+      "PackagePath": "staticwebassets\\css\\mana-master\\fonts\\mana.eot"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\fonts\\mana.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\fonts\\mana.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\fonts\\mana.ttf",
+      "PackagePath": "staticwebassets\\css\\mana-master\\fonts\\mana.ttf"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\fonts\\mana.woff",
+      "PackagePath": "staticwebassets\\css\\mana-master\\fonts\\mana.woff"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\fonts\\mana.woff2",
+      "PackagePath": "staticwebassets\\css\\mana-master\\fonts\\mana.woff2"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\fonts\\mplantin.eot",
+      "PackagePath": "staticwebassets\\css\\mana-master\\fonts\\mplantin.eot"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\fonts\\mplantin.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\fonts\\mplantin.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\fonts\\mplantin.ttf",
+      "PackagePath": "staticwebassets\\css\\mana-master\\fonts\\mplantin.ttf"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\fonts\\mplantin.woff",
+      "PackagePath": "staticwebassets\\css\\mana-master\\fonts\\mplantin.woff"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\index.html",
+      "PackagePath": "staticwebassets\\css\\mana-master\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\less\\colors.less",
+      "PackagePath": "staticwebassets\\css\\mana-master\\less\\colors.less"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\less\\core.less",
+      "PackagePath": "staticwebassets\\css\\mana-master\\less\\core.less"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\less\\cost.less",
+      "PackagePath": "staticwebassets\\css\\mana-master\\less\\cost.less"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\less\\dfc.less",
+      "PackagePath": "staticwebassets\\css\\mana-master\\less\\dfc.less"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\less\\duo.less",
+      "PackagePath": "staticwebassets\\css\\mana-master\\less\\duo.less"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\less\\extras.less",
+      "PackagePath": "staticwebassets\\css\\mana-master\\less\\extras.less"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\less\\icons.less",
+      "PackagePath": "staticwebassets\\css\\mana-master\\less\\icons.less"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\less\\loyalty.less",
+      "PackagePath": "staticwebassets\\css\\mana-master\\less\\loyalty.less"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\less\\mana.less",
+      "PackagePath": "staticwebassets\\css\\mana-master\\less\\mana.less"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\less\\path.less",
+      "PackagePath": "staticwebassets\\css\\mana-master\\less\\path.less"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\less\\sizes.less",
+      "PackagePath": "staticwebassets\\css\\mana-master\\less\\sizes.less"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\less\\variables.less",
+      "PackagePath": "staticwebassets\\css\\mana-master\\less\\variables.less"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\package.json",
+      "PackagePath": "staticwebassets\\css\\mana-master\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\sass\\_aliases.scss",
+      "PackagePath": "staticwebassets\\css\\mana-master\\sass\\_aliases.scss"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\sass\\_colors.scss",
+      "PackagePath": "staticwebassets\\css\\mana-master\\sass\\_colors.scss"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\sass\\_core.scss",
+      "PackagePath": "staticwebassets\\css\\mana-master\\sass\\_core.scss"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\sass\\_cost.scss",
+      "PackagePath": "staticwebassets\\css\\mana-master\\sass\\_cost.scss"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\sass\\_dfc.scss",
+      "PackagePath": "staticwebassets\\css\\mana-master\\sass\\_dfc.scss"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\sass\\_duo.scss",
+      "PackagePath": "staticwebassets\\css\\mana-master\\sass\\_duo.scss"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\sass\\_extras.scss",
+      "PackagePath": "staticwebassets\\css\\mana-master\\sass\\_extras.scss"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\sass\\_icons.scss",
+      "PackagePath": "staticwebassets\\css\\mana-master\\sass\\_icons.scss"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\sass\\_loyalty.scss",
+      "PackagePath": "staticwebassets\\css\\mana-master\\sass\\_loyalty.scss"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\sass\\_path.scss",
+      "PackagePath": "staticwebassets\\css\\mana-master\\sass\\_path.scss"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\sass\\_sizes.scss",
+      "PackagePath": "staticwebassets\\css\\mana-master\\sass\\_sizes.scss"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\sass\\_variables.scss",
+      "PackagePath": "staticwebassets\\css\\mana-master\\sass\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\sass\\mana.scss",
+      "PackagePath": "staticwebassets\\css\\mana-master\\sass\\mana.scss"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\0.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\0.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\1.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\1.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\10.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\10.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\100.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\100.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\1000000.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\1000000.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\11.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\11.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\12.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\12.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\13.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\13.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\14.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\14.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\15.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\15.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\16.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\16.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\17.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\17.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\18.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\18.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\19.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\19.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\2.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\2.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\20.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\20.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\3.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\3.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\4.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\4.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\5.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\5.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\6.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\6.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\7.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\7.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\8.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\8.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\9.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\9.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-activated.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-activated.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-adamant.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-adamant.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-adapt.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-adapt.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-addendum.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-addendum.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-adventure.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-adventure.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-afflict.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-afflict.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-afterlife.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-afterlife.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-aftermath.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-aftermath.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-alliance.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-alliance.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-amass.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-amass.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-ascend.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-ascend.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-blitz.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-blitz.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-boast.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-boast.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-casualty.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-casualty.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-changeling.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-changeling.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-channel.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-channel.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-cleave.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-cleave.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-companion.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-companion.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-constellation.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-constellation.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-convoke.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-convoke.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-corrupted.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-corrupted.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-coven.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-coven.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-d20.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-d20.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-day-night.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-day-night.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-daybound-nightbound.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-daybound-nightbound.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-deathtouch.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-deathtouch.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-decayed.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-decayed.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-defender.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-defender.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-devotion.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-devotion.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-disturb.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-disturb.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-domain.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-domain.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-doublestrike.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-doublestrike.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-dungeon.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-dungeon.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-embalm.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-embalm.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-enlist.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-enlist.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-enrage.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-enrage.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-escape.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-escape.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-eternalize.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-eternalize.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-exploit.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-exploit.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-explore.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-explore.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-fabricate.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-fabricate.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-firststrike.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-firststrike.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-flash.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-flash.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-flying.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-flying.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-for-mirrodin.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-for-mirrodin.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-foretell.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-foretell.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-haste.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-haste.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-hexproof-black.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-hexproof-black.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-hexproof-blue.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-hexproof-blue.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-hexproof-green.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-hexproof-green.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-hexproof-red.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-hexproof-red.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-hexproof-white.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-hexproof-white.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-hexproof.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-hexproof.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-hideaway.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-hideaway.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-indestructible.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-indestructible.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-investigate.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-investigate.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-jumpstart.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-jumpstart.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-kicker.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-kicker.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-landfall.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-landfall.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-learn.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-learn.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-lifelink.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-lifelink.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-magecraft.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-magecraft.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-meld.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-meld.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-menace.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-menace.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-mentor.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-mentor.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-mutate.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-mutate.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-ninjutsu.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-ninjutsu.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-obscura.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-obscura.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-proliferate.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-proliferate.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-prototype.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-prototype.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-prowess.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-prowess.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-raid.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-raid.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-reach.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-reach.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-read-ahead.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-read-ahead.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-reconfigure.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-reconfigure.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-revolt.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-revolt.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-riot.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-riot.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-specialize.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-specialize.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-spectacle.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-spectacle.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-static.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-static.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-summoning-sickness.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-summoning-sickness.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-surveil.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-surveil.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-toxic.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-toxic.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-training.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-training.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-trample.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-trample.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-transform.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-transform.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-triggered.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-triggered.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-undergrowth.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-undergrowth.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-unearth.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-unearth.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-vigilance.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-vigilance.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ability-ward.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ability-ward.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\acorn.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\acorn.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\artifact.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\artifact.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\artist-brush.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\artist-brush.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\artist-nib.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\artist-nib.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\b.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\b.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\c.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\c.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\chaos.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\chaos.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\clan-abzan.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\clan-abzan.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\clan-atarka.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\clan-atarka.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\clan-dromoka.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\clan-dromoka.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\clan-jeskai.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\clan-jeskai.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\clan-kolaghan.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\clan-kolaghan.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\clan-mardu.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\clan-mardu.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\clan-ojutai.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\clan-ojutai.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\clan-silumgar.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\clan-silumgar.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\clan-sultai.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\clan-sultai.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\clan-temur.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\clan-temur.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\conspiracy.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\conspiracy.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\counter-arrow.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\counter-arrow.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\counter-brick.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\counter-brick.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\counter-charge.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\counter-charge.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\counter-devotion.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\counter-devotion.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\counter-doom.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\counter-doom.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\counter-echo.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\counter-echo.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\counter-flame.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\counter-flame.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\counter-flood.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\counter-flood.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\counter-fungus.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\counter-fungus.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\counter-gold.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\counter-gold.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\counter-ki.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\counter-ki.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\counter-lore.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\counter-lore.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\counter-loyalty.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\counter-loyalty.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\counter-mining.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\counter-mining.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\counter-minus-uneven.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\counter-minus-uneven.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\counter-minus.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\counter-minus.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\counter-muster.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\counter-muster.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\counter-paw.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\counter-paw.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\counter-pin.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\counter-pin.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\counter-plus-uneven.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\counter-plus-uneven.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\counter-plus.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\counter-plus.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\counter-scream.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\counter-scream.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\counter-shield.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\counter-shield.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\counter-skeleton.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\counter-skeleton.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\counter-skull.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\counter-skull.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\counter-slime.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\counter-slime.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\counter-stun.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\counter-stun.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\counter-time.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\counter-time.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\counter-verse.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\counter-verse.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\counter-vortex.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\counter-vortex.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\creature.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\creature.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\dfc-day.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\dfc-day.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\dfc-emrakul.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\dfc-emrakul.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\dfc-enchantment.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\dfc-enchantment.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\dfc-ignite.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\dfc-ignite.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\dfc-lesson.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\dfc-lesson.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\dfc-modal-back.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\dfc-modal-back.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\dfc-modal-face.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\dfc-modal-face.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\dfc-moon.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\dfc-moon.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\dfc-night.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\dfc-night.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\dfc-spark.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\dfc-spark.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\e.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\e.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\enchantment.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\enchantment.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\flashback.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\flashback.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\g.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\g.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\guild-azorius.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\guild-azorius.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\guild-boros.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\guild-boros.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\guild-dimir.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\guild-dimir.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\guild-golgari.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\guild-golgari.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\guild-gruul.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\guild-gruul.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\guild-izzet.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\guild-izzet.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\guild-orzhov.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\guild-orzhov.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\guild-rakdos.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\guild-rakdos.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\guild-selesnya.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\guild-selesnya.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\guild-simic.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\guild-simic.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\half.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\half.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\infinity.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\infinity.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\instant.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\instant.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\land.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\land.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\loyalty-down.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\loyalty-down.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\loyalty-start.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\loyalty-start.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\loyalty-up.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\loyalty-up.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\loyalty-zero.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\loyalty-zero.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\multiple.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\multiple.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\p.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\p.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\phenomenon.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\phenomenon.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\plane.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\plane.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\planeswalker.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\planeswalker.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\polis-akros.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\polis-akros.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\polis-meletis.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\polis-meletis.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\polis-setessa.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\polis-setessa.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\power.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\power.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\r.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\r.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\rarity.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\rarity.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\s.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\s.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\saga.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\saga.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\scheme.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\scheme.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\school-lorehold-inner.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\school-lorehold-inner.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\school-lorehold.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\school-lorehold.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\school-prismari-inner.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\school-prismari-inner.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\school-prismari.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\school-prismari.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\school-quandrix-inner.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\school-quandrix-inner.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\school-quandrix.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\school-quandrix.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\school-silverquill-inner.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\school-silverquill-inner.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\school-silverquill.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\school-silverquill.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\school-witherbloom-inner.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\school-witherbloom-inner.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\school-witherbloom-outer.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\school-witherbloom-outer.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\school-witherbloom.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\school-witherbloom.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\sorcery.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\sorcery.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\tap-alt.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\tap-alt.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\tap.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\tap.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\ticket.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\ticket.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\token.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\token.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\toughness.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\toughness.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\u.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\u.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\untap.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\untap.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\vanguard.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\vanguard.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\w-list.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\w-list.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\w-original.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\w-original.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\w.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\w.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\x.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\x.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\y.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\y.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\mana-master\\svg\\z.svg",
+      "PackagePath": "staticwebassets\\css\\mana-master\\svg\\z.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\steen\\Documents\\02-semester2\\dotnet\\howest.magiccards\\Howest.MagicCards.Web\\wwwroot\\images\\banner.jpg",
+      "PackagePath": "staticwebassets\\images\\banner.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Howest.MagicCards.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Howest.MagicCards.Web.props",
+      "PackagePath": "build\\Howest.MagicCards.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Howest.MagicCards.Web.props",
+      "PackagePath": "buildMultiTargeting\\Howest.MagicCards.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Howest.MagicCards.Web.props",
+      "PackagePath": "buildTransitive\\Howest.MagicCards.Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

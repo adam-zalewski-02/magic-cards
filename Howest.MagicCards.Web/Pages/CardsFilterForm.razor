@@ -1,0 +1,318 @@
+﻿@using System.Text.Json
+@using Howest.MagicCards.DAL.Repositories;
+@using Howest.MagicCards.Shared.DTO.Card;
+@using Howest.MagicCards.Shared.DTO.Rarity;
+@using Microsoft.AspNetCore.Components.Server.ProtectedBrowserStorage;
+
+@inject IJSRuntime JSRuntime
+@inject NavigationManager NavigationManager
+@inject IHttpClientFactory? HttpClientFactory
+
+<form class="form-horizontal" action="#" method="get" @onsubmit="@(async () => {
+                await Search();
+            })">
+    <div class="row">
+
+
+        <div class="form-group">
+            <div class="input-group">
+                <input id="artistNameInput" type="text" class="form-control" placeholder="Artist name" @bind-value="searchArtist" @onkeydown:preventDefault>
+                <div class="input-group-append">
+                    <button type="button" id="clearCardNameButton" class="btn btn-outline-secondary" @onclick="@ClearArtistName">
+                        <b>X</b>
+                    </button>
+                </div>
+            </div>
+
+            <div class="input-group">
+                <input id="cardNameInput" type="text" class="form-control" placeholder="Card name" @bind-value="searchCard" @onkeydown:preventDefault>
+                <div class="input-group-append">
+                    <button type="button" id="clearCardNameButton" class="btn btn-outline-secondary" @onclick="@ClearCardName">
+                        <b>X</b>
+                    </button>
+                </div>
+            </div>
+
+            <div class="input-group">
+                <input id="cardNameInput" type="text" class="form-control" placeholder="Card text" @bind-value="searchCardText" @onkeydown:preventDefault>
+                <div class="input-group-append">
+                    <button type="button" id="clearCardNameButton" class="btn btn-outline-secondary" @onclick="@ClearCardText">
+                        <b>X</b>
+                    </button>
+                </div>
+            </div>
+
+            <div class="input-group">
+                <select class="form-control" @bind="selectedSet">
+                    <option value="">-- All sets --</option>
+                    @foreach (SetReadDTO set in _sets)
+                    {
+                        <option value="@set.SetName">@set.SetName</option>
+                    }
+                </select>
+                <button type="button" id="clearSetButton" class="btn btn-outline-secondary" @onclick="@unSelectSetList">
+                    <b>X</b>
+                </button>
+            </div>
+
+
+            <div class="input-group">
+                <select class="form-control" @bind="selectedRarity">
+                    <option value="">-- All rarities --</option>
+                    @foreach (RarityReadDTO rarity in _rarities)
+                    {
+                        <option value="@rarity.RarityName">@rarity.RarityName</option>
+                    }
+                </select>
+                <button type="button" id="clearRarityButton" class="btn btn-outline-secondary" @onclick="@unSelectRarityList">
+                    <b>X</b>
+                </button>
+            </div>
+
+            <div class="input-group">
+                <select class="form-control" @bind="selectedType">
+                    <option value="">-- All types --</option>
+                    @foreach (string type in _types)
+                    {
+                        <option value="@type">@type</option>
+                    }
+                </select>
+                <button type="button" id="clearTypeButton" class="btn btn-outline-secondary" @onclick="@unSelectTypeList">
+                    <b>X</b>
+                </button>
+            </div>
+        </div>
+        <div class="mt-1 mb-1 d-flex justify-content-between flex-wrap">
+
+            <div>
+                <div class="input-group">
+                    <button type="button" class="btn card-search-btn" @onclick="@(async () => { await Search(); })">
+                        <b>Search</b>
+                    </button>
+                    <button type="button" class="btn reset-filter-btn" @onclick="@(async () => { await ResetFilters(); })">
+                        <b>Reset filters</b>
+                    </button>
+                </div>
+            </div>
+
+            <div>
+                <button type="button" class="btn card-search-btn" @onclick="@(async () => { await SetSortOption(); })">
+                    <b>
+                       @GetSortOptionButtonText()
+                    </b>
+                </button>
+            </div>
+
+        </div>
+
+        
+        
+    </div>
+
+</form>
+
+
+
+@code {
+    private string searchArtist { get; set; } = "";
+
+    private string searchCard { get; set; } = "";
+
+    private string searchCardText { get; set; } = "";
+
+    private string selectedSet { get; set; } = "";
+
+    private string selectedRarity { get; set; } = "";
+
+    private string selectedSort { get; set; } = "";
+
+    private string selectedType { get; set; } = "";
+
+    private List<SetReadDTO> _sets { get; set; } = new List<SetReadDTO>();
+
+    private List<RarityReadDTO> _rarities { get; set; } = new List<RarityReadDTO>();
+
+    private List<string> _types = new List<string>
+    {
+        "Artifact",
+        "Aura",
+        "Basic Land",
+        "Creature",
+        "Enchantment",
+        "Instant",
+        "Land",
+        "Planeswalker",
+        "Sorcery"
+    };
+
+    private readonly JsonSerializerOptions jsonOptions;
+
+    private readonly string searchStorageKey = "searchFilter";
+
+
+    public CardsFilterForm()
+    {
+        jsonOptions = new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true,
+            };
+    }
+
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            string searchFilter = await JSRuntime.InvokeAsync<string>("localStorage.getItem", "searchFilter");
+            if (!string.IsNullOrEmpty(searchFilter))
+            {
+                AdvSearchFilter advSearchFilter = JsonSerializer.Deserialize<AdvSearchFilter>(searchFilter);
+                searchArtist = advSearchFilter.Artist;
+                searchCard = advSearchFilter.Name;
+                searchCardText = advSearchFilter.Text;
+                selectedSet = advSearchFilter.Set;
+                selectedRarity = advSearchFilter.Rarity;
+                selectedSort = advSearchFilter.Sort;
+                selectedType = advSearchFilter.Type;
+            }
+
+            await LoadSetList();
+            await LoadRarityList();
+
+            StateHasChanged();
+        }
+    }
+
+    public async Task LoadSetList()
+    {
+        HttpClient httpClient = HttpClientFactory.CreateClient("CardsAPI");
+
+        HttpResponseMessage response = await httpClient.GetAsync("set");
+
+        string apiResponse = await response.Content.ReadAsStringAsync();
+
+        if (response.IsSuccessStatusCode)
+        {
+            IEnumerable<SetReadDTO>? result =
+                    JsonSerializer.Deserialize<IEnumerable<SetReadDTO>>(apiResponse, jsonOptions);
+            _sets = result?.ToList();
+        }
+        else
+        {
+            _sets = new List<SetReadDTO>();
+            //message = $"Error: {response.ReasonPhrase}";
+        }
+    }
+
+    public async Task LoadRarityList()
+    {
+        HttpClient httpClient = HttpClientFactory.CreateClient("CardsAPI");
+
+        HttpResponseMessage response = await httpClient.GetAsync("rarity");
+
+        string apiResponse = await response.Content.ReadAsStringAsync();
+
+        if (response.IsSuccessStatusCode)
+        {
+            IEnumerable<RarityReadDTO>? result =
+                    JsonSerializer.Deserialize<IEnumerable<RarityReadDTO>>(apiResponse, jsonOptions);
+            _rarities = result?.ToList();
+        }
+        else
+        {
+            _rarities = new List<RarityReadDTO>();
+            //message = $"Error: {response.ReasonPhrase}";
+        }
+    }
+
+    private async Task Search()
+    {
+        // Update the search text in local storage
+        AdvSearchFilter advSearchFilter = new AdvSearchFilter { Artist = searchArtist, Name = searchCard, Text = searchCardText, Set = selectedSet, Rarity = selectedRarity, Sort = selectedSort, Type = selectedType };
+
+        string advSearchFilterValue = JsonSerializer.Serialize(advSearchFilter);
+        await JSRuntime.InvokeVoidAsync("localStorage.setItem", searchStorageKey, advSearchFilterValue);
+
+        // Reload the page/cardlist
+        NavigationManager.NavigateTo("/cards", true);
+    }
+
+    private async Task SetSortOption()
+    {
+        if (selectedSort == "")
+        {
+            selectedSort = "name asc";
+        }
+        else if (selectedSort == "name asc")
+        {
+            selectedSort = "name desc";
+        }
+        else
+        {
+            selectedSort = "";
+        }
+
+        // Perform the API request with the selected sort option
+        await Search();
+    }
+
+    private string GetSortOptionButtonText()
+    {
+        if (selectedSort == "")
+        {
+            return "Sort Name";
+        }
+        else if (selectedSort == "name asc")
+        {
+            return "Sort card name Asc";
+        }
+        else
+        {
+            return "Sort card name Desc";
+        }
+    }
+
+    private async Task ResetFilters()
+    {
+        ClearArtistName();
+        ClearCardName();
+        ClearCardText();
+        unSelectSetList();
+        unSelectRarityList();
+        unSelectTypeList();
+
+        selectedSort = "";
+
+        await Search();
+    }
+
+    private void ClearArtistName()
+    {
+        searchArtist = "";
+    }
+
+    private void ClearCardName()
+    {
+        searchCard = "";
+    }
+
+    private void ClearCardText()
+    {
+        searchCardText = "";
+    }
+
+    private void unSelectSetList()
+    {
+        selectedSet = "";
+    }
+
+    private void unSelectRarityList()
+    {
+        selectedRarity = "";
+    }
+
+    private void unSelectTypeList()
+    {
+        selectedType = "";
+    }
+}

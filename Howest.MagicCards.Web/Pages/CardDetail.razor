@@ -1,0 +1,163 @@
+﻿@page "/cards/{id:int}"
+
+@using System.Text.Json
+@using Howest.MagicCards.Shared.DTO.Card;
+
+@inject ICardRepository cardRepo
+@inject IMapper mapper
+@inject IHttpClientFactory httpClientFactory
+
+
+@if (card == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <h3>Detail of card @cardName</h3>
+    <div class="inner-content">
+        <div class="row">
+                <div>
+                    <img class="detailImage" src="@card.OriginalImageUrl">
+                <table id="table-card-detail">
+                    <tr>
+                        <td>Id:</td>
+                        <td>@card.Id</td>
+                    </tr>
+                    <tr>
+                        <td>Name:</td>
+                        <td>@card.Name</td>
+                    </tr>
+                    <tr>
+                        <td>Mana Cost:</td>
+                        <td>
+                            @if (getManaNumber(card.ManaCost) != -1)
+                            {
+                                <i class="ms ms-@getManaNumber(card.ManaCost) ms-cost ms-shadow"></i>
+                            }
+                            @foreach (Char character in getManaSymbols(card.ManaCost))
+                            {
+                                <i class="ms ms-@character.ToString().ToLower() ms-cost ms-shadow"></i>
+                            }
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Converted Mana Cost:</td>
+                        <td>@card.ConvertedManaCost</td>
+                    </tr>
+                    <tr>
+                        <td>Type:</td>
+                        <td>@card.Type</td>
+                    </tr>
+                    <tr>
+                        <td>Rarity:</td>
+                        <td>@card.Rarity</td>
+                    </tr>
+                    <tr>
+                        <td>Set:</td>
+                        <td>@card.Set</td>
+                    </tr>
+                    <tr>
+                        <td>Original Text:</td>
+                        <td>@card.OriginalText</td>
+                    </tr>
+                    <tr>
+                        <td>Artist:</td>
+                        <td>@card.ArtistName</td>
+                    </tr>
+                    <tr>
+                        <td>Cardnumber:</td>
+                        <td>@card.Number</td>
+                    </tr>
+                    <tr>
+                        <td>Power:</td>
+                        <td>@card.Power</td>
+                    </tr>
+                    <tr>
+                        <td>Toughness:</td>
+                        <td>@card.Toughness</td>
+                    </tr>
+                    <tr>
+                        <td>Original Type:</td>
+                        <td>@card.OriginalType</td>
+                    </tr>
+                </table>
+
+                </div>
+                <div id="back-button">
+                    <NavLink class="nav-link" href="/cards">
+                        <span class="oi oi-card" aria-hidden="true"></span> Go back to cardslist screen
+                    </NavLink>
+                </div>
+        </div>
+    </div>
+}
+
+@code {
+    private string? cardName;
+    private CardDetailReadDTO? card;
+    private readonly JsonSerializerOptions jsonOptions;
+
+    [Parameter]
+    public int Id { get; set; }
+
+    public string message { get; set; }
+
+    public CardDetail()
+    {
+        jsonOptions = new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true,
+            };
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        HttpClient httpClient = httpClientFactory.CreateClient("CardsAPIv1.5");
+
+        HttpResponseMessage response = await httpClient.GetAsync($"cards/{Id}");
+
+        string apiResponse = await response.Content.ReadAsStringAsync();
+
+        Console.WriteLine(apiResponse);
+        if (response.IsSuccessStatusCode)
+        {
+            CardDetailReadDTO? result =
+                    JsonSerializer.Deserialize<CardDetailReadDTO>(apiResponse, jsonOptions);
+            card = result;
+        }
+        else
+        {
+            card = new CardDetailReadDTO();
+            message = $"Error: {response.ReasonPhrase}";
+        }
+    }
+
+    public char[] getManaSymbols(string manacost)
+    {
+        if (!string.IsNullOrEmpty(manacost))
+        {
+            char[] onlyLetters = manacost.Where(Char.IsLetter).ToArray();
+            return onlyLetters;
+        }
+
+        char[] allSymbols = new char[0];
+        return allSymbols;
+    }
+
+    public int getManaNumber(string manacost)
+    {
+        if (!string.IsNullOrEmpty(manacost))
+        {
+            string numericPart = new string(manacost.Where(char.IsDigit).ToArray());
+            int manaNumber;
+            if (int.TryParse(numericPart, out manaNumber))
+            {
+                return manaNumber;
+            }
+        }
+        return -1;
+    }
+
+
+}
